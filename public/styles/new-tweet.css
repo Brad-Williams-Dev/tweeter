@@ -39,6 +39,7 @@
 }
 
 .tweet-button {
+  cursor: pointer;
   border-style: none;
   padding:10px;
   border-radius: 5px;;
@@ -47,12 +48,20 @@
   color: #FFFFFF;
 }
 
+.tweet-button:hover {
+  background-color: #545149;
+}
+
 .tweet-footer {
   width: 100%;
   font-family: 'Bungee', sans-serif;
 
   display: flex;
   justify-content: space-between;
+}
+
+.tweet-to-long {
+  color: red;
 }
 
 
