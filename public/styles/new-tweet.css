@@ -11,7 +11,7 @@
 }
 
 .new-tweet form {
-  width: 100%;
+  width: 95%;
 }
 
 .counter {
@@ -49,7 +49,7 @@
 }
 
 .tweet-button:hover {
-  background-color: #545149;
+  background-color: darkgoldenrod;
 }
 
 .tweet-footer {

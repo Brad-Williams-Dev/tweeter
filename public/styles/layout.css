@@ -25,10 +25,11 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
- main {
+ #container {
   background-color: #f4f1ec;
   padding-left: 5%;
   padding-right: 5%;
+  margin-left: 2em;;
  
    display: flex;
    flex-direction: row;
