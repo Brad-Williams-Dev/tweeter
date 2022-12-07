@@ -37,6 +37,20 @@ const data = [
 
 $(document).ready(function() {
 
+  $('form').submit(function(event) {
+    event.preventDefault();
+    let newData = $(this).serialize();
+
+    $.ajax({
+      type: 'POST',
+      url: '/tweets/',
+      data: newData
+    });
+
+    console.log(newData);
+
+  });
+
   const createTweetElement = tweet => {
     let $tweet = `
     <article class="tweet">
