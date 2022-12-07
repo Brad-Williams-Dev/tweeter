@@ -25,6 +25,7 @@
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./scripts/compser-char-count.js"></script>
+    <script src="./scripts/client.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -65,22 +66,8 @@
         </form>
       </section>
       <br>
-      <section>
-      <article class="tweet">
-        <header>
-          <div class="tweet-avatar">avatar</div>
-          <div class="tweet-handle">@SomeRandomGuy</div>
-        </header>
-        <p>Im pretty sure I could be vegan if I wanted too.</p>
-        <footer>
-          <div class="tweet-date">date posted</div>
-          <div class="tweet-icons">
-            <i class="fa-solid fa-flag"></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article>
+      <section class="tweets-container">
+        <!-- Tweets dynamically generated from client.js file -->
     </section>
     </main>
   </body>
