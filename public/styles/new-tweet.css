@@ -12,6 +12,7 @@
 
 .new-tweet form {
   width: 95%;
+  padding-top: 1em;
 }
 
 .counter {
@@ -49,7 +50,8 @@
 }
 
 .tweet-button:hover {
-  background-color: darkgoldenrod;
+  opacity: 75%;
+  box-shadow: 2px 2px 2px 2px darkgoldenrod;
 }
 
 .tweet-footer {
@@ -58,6 +60,25 @@
 
   display: flex;
   justify-content: space-between;
+}
+
+#error {
+  width: 100%;
+  margin: 1em;
+  padding: 0.2em;
+  border-style: solid;
+  border-width: .2em;
+  border-color: #FF0000;
+  color: #FF0000;
+  font-weight: lighter;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#error.hide {
+  display: none;
 }
 
 .tweet-to-long {

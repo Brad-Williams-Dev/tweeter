@@ -7,6 +7,7 @@
 
 .tweet {
   width: 95%;
+  height: 14em;
   margin-bottom: 1em;
   padding-left: .7em;
   padding-right: .7em;
@@ -20,6 +21,11 @@
   
   display: flex;
   flex-direction: column;
+}
+
+.icon {
+  padding: 8px;
+ 
 }
 
 .tweet:hover {
@@ -42,12 +48,16 @@
   align-items: center;
 }
 
+#tweet-inner{
+  word-wrap: break-word;
+}
+
 .tweet-avatar img{
   margin-right: 0.5em;
 }
 
 .tweet-handle {
-  padding-top: .4em;
+  padding-top: 3%;
   font-weight: bold;
   color: lightgray;
 }
@@ -70,7 +80,7 @@
 
 .tweet-date {
   padding-top: 0.5em;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 }
 
 .tweet-icons {
@@ -81,3 +91,4 @@
 .tweet-icons i:hover {
   color: darkgoldenrod;
 }
+
