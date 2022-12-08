@@ -25,6 +25,16 @@ Tweeter was build using HTML, CSS, JS, jQuery and AJAX.
 - Page features a responsive design 
 - Tweet box uses a character counter for displaying how many characters you have remaining. Counter turns red when counter goes negative.
 
+## Challenges
+
+ # While working on this project I encountered a few challenges that turns out to be a valuable learning experience.
+
+- Tweets were orignally being pushed to the bottom of the feed list. / After some reasearch I learned that in order for the latest tweets to be displayed first, I needed to prepend and not append.
+
+- While trying to make the design responsive, my tweet boxes were getting very messed up. I have fixed them, however I believe that it wasnt fixed with best practices and will be looking further into how to implement responive design better in the future.
+
+
+
 ## Screen Shots
 
 !["Shows app in mobile friendly mode"](https://github.com/Brad-Williams-Dev/tweeter/blob/master/docs/Screenshot%202022-12-08%20at%202.10.20%20PM.png?raw=true)
