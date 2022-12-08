@@ -27,4 +27,7 @@ Tweeter was build using HTML, CSS, JS, jQuery and AJAX.
 
 ## Screen Shots
 
-
+!["Shows app in mobile friendly mode"](https://github.com/Brad-Williams-Dev/tweeter/blob/master/docs/Screenshot%202022-12-08%20at%202.10.20%20PM.png?raw=true)
+!["Shows app in Desktop mode"](https://github.com/Brad-Williams-Dev/tweeter/blob/master/docs/Screenshot%202022-12-08%20at%202.10.43%20PM.png?raw=true)
+!["Example of error message, message field was empty"](https://github.com/Brad-Williams-Dev/tweeter/blob/master/docs/Screenshot%202022-12-08%20at%202.11.11%20PM.png?raw=true)
+!["Example of error message, tweet to long, also demonstrates counter"](https://github.com/Brad-Williams-Dev/tweeter/blob/master/docs/Screenshot%202022-12-08%20at%202.11.38%20PM.png?raw=true)
