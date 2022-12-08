@@ -1,20 +1,20 @@
 .nav-bar {
-position: fixed;
-height: 120px;
-width: 100%;
-top: 0;
-padding-left: 1.5em;
-padding-right: 1.5em;
-color: #FFFFFF;
-background-color:#6c757d ;
-background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-display:flex;
-align-items: center;
-justify-content: space-between;
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  top: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: #ffffff;
+  background-color: #023e8a;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-name{
-  font-family: 'Bungee', sans-serif;  
+.nav-name {
+  font-family: "Bungee", sans-serif;
 }
 
 .nav-tweet {
@@ -28,25 +28,31 @@ justify-content: space-between;
   justify-content: flex-end;
 }
 
-
+#tweet-arrow-button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
 
 /* Animation for arrow in nav bar */
 @keyframes up-down {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-3px);}
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
 }
 
 #nav-arrow {
   color: red;
-  animation: up-down .5s infinite alternate;
+  animation: up-down 0.5s infinite alternate;
 }
 
 @media screen and (min-width: 1024px) {
-
   .nav-bar {
     position: fixed;
     background-image: none;
-    background-color: #495057;
+    background-color: #023e8a;
   }
-
 }
