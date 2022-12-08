@@ -27,7 +27,7 @@ Tweeter was build using HTML, CSS, JS, jQuery and AJAX.
 
 ## Challenges
 
- # While working on this project I encountered a few challenges that turns out to be a valuable learning experience.
+ ### While working on this project I encountered a few challenges that turns out to be a valuable learning experience.
 
 - Tweets were orignally being pushed to the bottom of the feed list. / After some reasearch I learned that in order for the latest tweets to be displayed first, I needed to prepend and not append.
 
