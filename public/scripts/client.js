@@ -15,7 +15,7 @@ $(document).ready(function() {
   const createTweetElement = tweet => {
     let $tweet = `
     <article class="tweet">
-      <header>
+      <header id="header">
         <div class="tweet-avatar"><img src="${tweet.user.avatars}"></img>${tweet.user.name}</div>
         <div class="tweet-handle">${tweet.user.handle}</div>
       </header>
@@ -40,6 +40,8 @@ $(document).ready(function() {
   // Loops through list of tweets and runs them through createTweetElement function, then prepends them to index.html page
   const renderTweets = tweets => {
 
+    // .empty() method emptys the tweet-container, before rendering tweets, otherwise results in duplicated
+    $('.tweets-container').empty();
 
     for (const tweet of tweets) {
       let $newTweet = createTweetElement(tweet);
@@ -75,6 +77,7 @@ $(document).ready(function() {
 
       // AJAX post request that fetches tweets from database, then reloads loadTweets function, then calls javascripts reset method to reset the form.
       $.ajax({
+
         type: 'POST',
         url: '/tweets',
         data: newData
